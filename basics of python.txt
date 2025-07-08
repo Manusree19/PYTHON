@@ -1,0 +1,181 @@
+ 1. What is Python?
+Definition:
+Python is a high-level, interpreted programming language known for its simple syntax and readability.
+
+Real-Life Example:
+Think of Python as a language like English. It’s easier to communicate with computers using Python, just like using plain language to talk to someone.
+
+🔤 2. Variables
+Definition:
+Variables are containers for storing data values.
+
+python
+Copy
+Edit
+name = "John"
+age = 25
+Real-Life Example:
+Like labeling jars in your kitchen:
+python
+Copy
+Edit
+sugar_jar = "sugar"
+rice_jar = "rice"
+💠 3. Data Types
+Definition:
+Data types define the type of value a variable holds.
+
+Data Type	Example	Real-Life Analogy
+int	10	Counting apples
+float	3.14	Measuring milk in liters
+str	"hello"	Writing your name
+bool	True/False	Is the light ON? Yes or No
+list	[1, 2, 3]	Grocery list
+
+➕ 4. Operators
+Definition:
+Operators perform operations on variables and values.
+
+Operator	Example	Meaning	Real-Life Example
++	2 + 3	Addition	Adding scores in a game
+-	5 - 2	Subtraction	Deducting expenses
+*	3 * 4	Multiplication	Price × quantity
+/	10 / 2	Division	Sharing equally
+==	a == b	Equal to	Is room_temp same as target_temp?
+
+🔁 5. Conditional Statements
+Definition:
+Used to perform different actions based on different conditions.
+
+python
+Copy
+Edit
+temp = 30
+if temp > 25:
+    print("It's hot!")
+else:
+    print("It's cool.")
+Real-Life Example:
+If it rains, take an umbrella. Otherwise, wear sunglasses.
+
+🔁 6. Loops
+a. for loop
+Definition:
+Executes a block of code for each item in a sequence.
+
+python
+Copy
+Edit
+fruits = ["apple", "banana", "mango"]
+for fruit in fruits:
+    print(fruit)
+b. while loop
+Definition:
+Repeats a block of code as long as a condition is true.
+
+python
+Copy
+Edit
+count = 1
+while count <= 3:
+    print("Practice!")
+    count += 1
+Real-Life Example:
+
+for loop: Checking items in a grocery list
+
+while loop: Filling a bottle until it’s full
+
+📦 7. Functions
+Definition:
+A function is a block of reusable code that performs a specific task.
+
+python
+Copy
+Edit
+def greet(name):
+    print("Hello", name)
+greet("Manu")
+Real-Life Example:
+Microwave has a “Reheat” button → You press it, and it reheats every time (reusable).
+
+📦 8. Lists
+Definition:
+A list is a collection of items in a particular order.
+
+python
+Copy
+Edit
+grocery = ["milk", "eggs", "bread"]
+print(grocery[1])  # Output: eggs
+Real-Life Example:
+Your shopping list.
+
+📑 9. Dictionaries
+Definition:
+Stores data as key-value pairs.
+
+python
+Copy
+Edit
+person = {"name": "Alice", "age": 30}
+print(person["name"])
+Real-Life Example:
+Your contact book: Name is the key, phone number is the value.
+
+🎯 10. Input and Output
+python
+Copy
+Edit
+name = input("Enter your name: ")
+print("Welcome", name)
+Real-Life Example:
+ATM asks you for your PIN (input) and shows your balance (output).
+
+🧠 11. Type Conversion
+python
+Copy
+Edit
+age = "25"
+age = int(age)
+Real-Life Example:
+Converting litres to millilitres: changing formats.
+
+🐞 12. Error Handling (Try-Except)
+Definition:
+Used to handle errors and prevent program from crashing.
+
+python
+Copy
+Edit
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("You can't divide by zero!")
+Real-Life Example:
+Wearing a helmet when biking — a protection mechanism.
+
+📂 13. Modules and Import
+Definition:
+Modules are Python files with functions you can reuse.
+
+python
+Copy
+Edit
+import math
+print(math.sqrt(25))
+Real-Life Example:
+Using a calculator app for square root instead of doing it by hand.
+
+🧪 14. Real-Life Mini Project Idea
+To-Do List App:
+
+python
+Copy
+Edit
+tasks = []
+tasks.append("Buy groceries")
+tasks.append("Call mom")
+print("My To-Do List:")
+for task in tasks:
+    print(f"- {task}")
